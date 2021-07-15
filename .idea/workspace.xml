@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/C3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/ClassExecution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/ClassExecution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vJc7AHsFudKHQ7rD5NGVtEKITF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -144,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626283464482</updated>
       <workItem from="1626283466034" duration="439000" />
-      <workItem from="1626284389701" duration="1323000" />
+      <workItem from="1626284389701" duration="5613000" />
     </task>
     <servers />
   </component>

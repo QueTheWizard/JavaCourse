@@ -1,5 +1,7 @@
 package Tirgul_3;
 
+import java.util.Stack;
+
 public class ClassExecution {
 	public static void main(String[] args) {
 		Circle c, maagal;
@@ -48,5 +50,30 @@ public class ClassExecution {
 		cir = r1.calcCircum();
 		Syste
 */
+		// Stacks
+		Stack<Integer> stack = new Stack<>();
+		stack.push(10);
+		stack.push(20);
+		stack.push(30);
+		System.out.println(stack);
+		var top = stack.pop();
+		System.out.println(top);
+		System.out.println(stack);
+		var peek = stack.peek();
+		System.out.println(peek);
+		System.out.println(stack);
+
+		// Reverse a string
+		String str = "abcd";
+		StringReverser reverser = new StringReverser();
+
+		var result = reverser.reverse(str);
+
+		System.out.println(result);
+
+		Stack1 stack1 = new Stack1();
+		stack1.push(10);
+		stack1.push(10);
+		System.out.println(stack1);
 	}
 }
