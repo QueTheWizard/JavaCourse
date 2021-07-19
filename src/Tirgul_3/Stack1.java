@@ -12,7 +12,7 @@ public class Stack1 {
         data = new int[10];
     }
 
-    public int[] push(int item) {
+    public void push(int item) {
         if (count == data.length) {
             int[ ] temp = new int[data.length +5];
             temp = Arrays.copyOf(data, data.length +5);
@@ -21,7 +21,6 @@ public class Stack1 {
         }
         data[count] = item;
         count++;
-        return new int[0];
     }
 
     public int pop() {
