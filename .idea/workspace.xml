@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/ClassExecution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/ClassExecution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/Stack1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tirgul_3/Stack1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1vJc7AHsFudKHQ7rD5NGVtEKITF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -147,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626283464482</updated>
       <workItem from="1626283466034" duration="439000" />
-      <workItem from="1626284389701" duration="5613000" />
+      <workItem from="1626284389701" duration="9004000" />
     </task>
     <servers />
   </component>
@@ -161,5 +170,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

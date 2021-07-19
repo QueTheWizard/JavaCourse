@@ -73,7 +73,24 @@ public class ClassExecution {
 
 		Stack1 stack1 = new Stack1();
 		stack1.push(10);
-		stack1.push(10);
+		stack1.push(20);
+		stack1.push(30);
+		System.out.println(stack1);
+		stack1.pop();
+		System.out.println(stack1);
+		System.out.println(stack1.peek());
+		System.out.println(stack1.isEmpty());
+
+		stack1.push(30);
+		stack1.push(30);
+		stack1.push(30);
+		stack1.push(30);
+		stack1.push(30);
+		stack1.push(30);
+		stack1.push(30);
+		stack1.push(30);
+		System.out.println(stack1);
+		stack1.push(40);
 		System.out.println(stack1);
 	}
 }

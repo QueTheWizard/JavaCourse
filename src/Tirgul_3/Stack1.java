@@ -12,12 +12,16 @@ public class Stack1 {
         data = new int[10];
     }
 
-    public void push(int item) {
+    public int[] push(int item) {
         if (count == data.length) {
-            throw new StackOverflowError();
+            int[ ] temp = new int[data.length +5];
+            temp = Arrays.copyOf(data, data.length +5);
+            temp[data.length] = item;
+            data = temp;
         }
         data[count] = item;
         count++;
+        return new int[0];
     }
 
     public int pop() {
@@ -28,8 +32,25 @@ public class Stack1 {
         return data[count];
     }
 
+    public int peek() {
+        if (count == 0) {
+            throw new IllegalStateException();
+        }
+        return data[count -1];
+    }
+
+    public boolean isEmpty() {
+        if (count == 0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
     @Override
     public String toString() {
-        return Arrays.toString(data);
+        var content = Arrays.copyOfRange(data, 0, count);
+        return Arrays.toString(content);
     }
 }
