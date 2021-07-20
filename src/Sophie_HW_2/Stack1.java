@@ -1,4 +1,4 @@
-package Tirgul_3;
+package Sophie_HW_2;
 
 import java.util.Arrays;
 
@@ -45,6 +45,11 @@ public class Stack1 {
         else {
             return false;
         }
+    }
+
+    public int length() {
+        var content = Arrays.copyOfRange(data, 0, count);
+        return content.length;
     }
 
     @Override

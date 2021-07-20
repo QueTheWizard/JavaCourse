@@ -1,4 +1,4 @@
-package Tirgul_3;
+package Sophie_HW_2;
 
 import java.util.Stack;
 

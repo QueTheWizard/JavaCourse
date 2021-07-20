@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/Stack1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tirgul_3/Stack1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/ClassExecution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/Stack1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/StringReverser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/com/idan/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/Stack1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/StringReverser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/idan/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +110,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.ClassExecution">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="ClassExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tirgul_3.ClassExecution" />
       <module name="JavaCourse" />
@@ -124,6 +134,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sophie_HW_2.MainClass" />
+      <module name="JavaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sophie_HW_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ClassExecution" />
         <item itemvalue="Application.Main" />
       </list>
@@ -153,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626283464482</updated>
       <workItem from="1626283466034" duration="439000" />
-      <workItem from="1626284389701" duration="9096000" />
+      <workItem from="1626284389701" duration="14743000" />
     </task>
     <servers />
   </component>
@@ -171,11 +195,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
