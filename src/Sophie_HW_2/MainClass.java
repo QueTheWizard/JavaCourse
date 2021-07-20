@@ -61,7 +61,23 @@ public class MainClass {
         stack3.push(2);
         System.out.println(Arrays.toString(getMaxStack1(stack3)));
 
-        // TODO getEvenStack
+        // getEvenStack1
+        Stack1 stack4 = new Stack1();
+        stack4.push(15);
+        stack4.push(4);
+        stack4.push(12);
+        stack4.push(13);
+        stack4.push(8);
+        System.out.println(Arrays.toString(getEvenStack1(stack4)));
+
+        // getEvenStack
+        Stack<Integer> stack5 = new Stack<Integer>();
+        stack5.push(5);
+        stack5.push(8);
+        stack5.push(10);
+        stack5.push(1);
+        stack5.push(12);
+        System.out.println(Arrays.toString(getEvenStack(stack5)));
 
     }
 
@@ -107,8 +123,78 @@ public class MainClass {
         for(int i=0; i<reverseArray.length; i++) {
             reverseArray[i] = stackArg.pop();
         }
+
         Arrays.sort(reverseArray);
 
         return reverseArray;
+    }
+
+    public static int[] getEvenStack1(Stack1 stackArg) {
+        int[] arr = new int[stackArg.length()];
+        int[] newArr = new int[stackArg.length()];
+
+        for(int i = 0; i < arr.length; i++) {
+            arr[i] = stackArg.pop();
+        }
+
+        for(int i = 0; i < arr.length;i++) {
+            if (arr[i] % 2 == 0) {
+                newArr[i] = arr[i];
+            }
+        }
+
+        int n = 0;
+        for (int i = 0; i < newArr.length; i++) {
+            if (newArr[i] != 0)
+                n++;
+        }
+
+        int[] newArrWithoutZero = new int[n];
+        int j=0;
+
+        for (int i = 0; i < newArr.length; i++) {
+            if (newArr[i] != 0)
+            {
+                newArrWithoutZero[j]=newArr[i];
+                j++;
+            }
+        }
+        return newArrWithoutZero;
+    }
+
+    public static int[] getEvenStack(Stack<Integer> stackArg) {
+        Stack<Integer> reverseStack = new Stack<>();
+
+        int len = stackArg.size();
+        for (int i = 0; i < len; i++) {
+            reverseStack.push((Integer) stackArg.pop());
+        }
+
+        Object[] arrFromStack = reverseStack.toArray();
+        int[] newArr = new int[arrFromStack.length];
+
+        for(int i = 0; i < arrFromStack.length;i++) {
+            if ((int) arrFromStack[i] % 2 == 0) {
+                newArr[i] = (int) arrFromStack[i];
+            }
+        }
+
+        int n = 0;
+        for (int i = 0; i < newArr.length; i++) {
+            if (newArr[i] != 0)
+                n++;
+        }
+
+        int[] newArrWithoutZero = new int[n];
+        int j=0;
+
+        for (int i = 0; i < newArr.length; i++) {
+            if (newArr[i] != 0)
+            {
+                newArrWithoutZero[j]=newArr[i];
+                j++;
+            }
+        }
+        return newArrWithoutZero;
     }
 }

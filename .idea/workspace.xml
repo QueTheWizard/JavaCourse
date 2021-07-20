@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/ClassExecution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/Stack1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Tirgul_3/StringReverser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/com/idan/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/ClassExecution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/Stack1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tirgul_3/StringReverser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/idan/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sophie_HW_2/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sophie_HW_2/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626283464482</updated>
       <workItem from="1626283466034" duration="439000" />
-      <workItem from="1626284389701" duration="14743000" />
+      <workItem from="1626284389701" duration="18218000" />
     </task>
     <servers />
   </component>
