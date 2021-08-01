@@ -15,6 +15,5 @@ public class MainClass {
         Cat cat = new Cat();
         cat.play(yossi);
 
-
     }
 }

@@ -4,8 +4,8 @@
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCourse/Sophie_HW_2/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCourse/Sophie_HW_2/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sophie_HW_2/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sophie_HW_2/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class4/src/Tirgul4/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class4/src/Tirgul4/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class4/src/Tirgul4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class4/src/Tirgul4/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +32,12 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/MainClass.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Pet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Cat.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Human.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1vJc7AHsFudKHQ7rD5NGVtEKITF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -105,40 +111,28 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.MainClass (1)">
-    <configuration name="ClassExecution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class4.ClassExecution" />
-      <module name="Class4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Main" />
-      <module name="Test2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Program">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class4.Main" />
       <module name="Class4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mosh.Main" />
+      <module name="codewithmosh" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mosh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sophie_HW_2.MainClass" />
-      <module name="JavaCourse" />
+    <configuration name="MainClasss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tirgul5.MainClasss" />
+      <module name="Class5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sophie_HW_2.*" />
+          <option name="PATTERN" value="Tirgul5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,26 +166,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.Program" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.ClassExecution (1)" />
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.MainClasss" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.MainClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +198,16 @@
       <option name="presentableId" value="Default" />
       <updated>1626283464482</updated>
       <workItem from="1626283466034" duration="439000" />
-      <workItem from="1626284389701" duration="26548000" />
+      <workItem from="1626284389701" duration="27094000" />
+      <workItem from="1627020426134" duration="65000" />
+      <workItem from="1627020529223" duration="172000" />
+      <workItem from="1627023706600" duration="3080000" />
+      <workItem from="1627480761109" duration="3296000" />
+      <workItem from="1627549659928" duration="615000" />
+      <workItem from="1627754045241" duration="1004000" />
+      <workItem from="1627805461154" duration="153000" />
+      <workItem from="1627806524704" duration="3292000" />
+      <workItem from="1627814703314" duration="6086000" />
     </task>
     <servers />
   </component>
@@ -218,6 +221,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
