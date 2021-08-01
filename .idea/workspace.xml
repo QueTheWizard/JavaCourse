@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class4/src/Tirgul4/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class4/src/Tirgul4/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class4/src/Tirgul4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class4/src/Tirgul4/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +206,7 @@
       <workItem from="1627754045241" duration="1004000" />
       <workItem from="1627805461154" duration="153000" />
       <workItem from="1627806524704" duration="3292000" />
-      <workItem from="1627814703314" duration="6086000" />
+      <workItem from="1627814703314" duration="7160000" />
     </task>
     <servers />
   </component>

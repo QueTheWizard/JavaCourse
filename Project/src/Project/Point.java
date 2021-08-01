@@ -33,6 +33,21 @@ public class Point {
         return y;
     }
 
+    public double calcDistance(Point other) {
+        double x1 = other.getX();
+        double x2 = this.getX();
+
+        double y1 = other.getY();
+        double y2 = this.getY();
+
+        double x3 = x1 - x2;
+        double y3 = y1 - y2;
+
+        double distance = Math.sqrt(Math.pow(x3,2) + Math.pow(y3,2));
+
+        return distance;
+    }
+
     public double getX() {
         return x;
     }
