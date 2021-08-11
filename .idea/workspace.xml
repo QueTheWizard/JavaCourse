@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Class5/src/Tirgul5/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class5/src/Tirgul5/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class5/src/Tirgul5/Washer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/Project/DrivingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/src/Project/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class5/Tirgul5/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class5/Tirgul5/MainClasss.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class5/Tirgul5/TV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Class5/Tirgul5/Washer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/Project/DrivingGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/Project/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class5/src/Tirgul5/MainClasss.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class5/src/Tirgul5/MainClasss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Junction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Junction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/src/Project/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/src/Project/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/TrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/TrafficLights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/Project/Junction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/Project/Junction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/Project/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/Project/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/Project/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/Project/Program.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +53,20 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Project/src/Project/Map.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/src/Project/Program.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/Washer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/TV.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/Device.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/MainClass.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Pet.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Cat.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Human.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/MainClasss.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/src/Project/Point.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/src/Project/Junction.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/src/Project/TrafficLights.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/src/Project/Road.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1vJc7AHsFudKHQ7rD5NGVtEKITF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -110,9 +140,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.AbstractDriver">
+    <configuration name="AbstractDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson7.AbstractDriver" />
+      <module name="Class7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class4.Main" />
       <module name="Class4" />
@@ -132,19 +175,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mosh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tirgul4.MainClass" />
-      <module name="Class4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tirgul4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractDriver" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.MainClasss" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.MainClass (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +236,11 @@
       <workItem from="1627754045241" duration="1004000" />
       <workItem from="1627805461154" duration="153000" />
       <workItem from="1627806524704" duration="3292000" />
-      <workItem from="1627814703314" duration="7160000" />
+      <workItem from="1627814703314" duration="7536000" />
+      <workItem from="1628061330457" duration="899000" />
+      <workItem from="1628071921118" duration="10391000" />
+      <workItem from="1628542055912" duration="868000" />
+      <workItem from="1628688788804" duration="4355000" />
     </task>
     <servers />
   </component>

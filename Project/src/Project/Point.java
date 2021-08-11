@@ -1,66 +1,55 @@
 package Project;
 
+import java.util.Random;
+
 public class Point {
+    private final int MAX_X = 800;
+    private final int MAX_Y = 600;
+    private final int MIN_VAL = 0;
+
     private double x;
     private double y;
 
     public Point() {
-        x = (int) ((Math.random() * (800 - 0)) + 0);
-        setX(x);
+        Random r = new Random();
 
-        y = (int) ((Math.random() * (600 - 0)) + 0);
-        setY(y);
+        x = r.nextInt(MAX_X) - r.nextDouble();
+        y = r.nextInt(MAX_Y) - r.nextDouble();
+
+        System.out.println("Creating " + this);
     }
 
     public Point(double x, double y) {
-        setX(checkValueX(x));
-        setY(checkValueY(y));
+        this.x = checkValue(x, MIN_VAL, MAX_X);
+        this.y = checkValue(y, MIN_VAL, MAX_Y);
+
+        if (this.x != x) {
+            System.out.println(x + " is illegal value for x and has been replaced with " + this.x);
+        }
+
+        if (this.y != y) {
+            System.out.println(y + " is illegal value for y and has been replaced with " + this.y);
+        }
+
+        System.out.println("Creating " + this);
     }
 
-    private double checkValueX(double x) {
-        if (x>800 || x<0) {
-            x = (int) ((Math.random() * (800 - 0)) + 0);
-            return x;
-        }
-        return x;
-    }
+    private double checkValue(double num, int min, int max) {
+        Random r = new Random();
 
-    private double checkValueY(double y) {
-        if (y>800 || y<0) {
-            y = (int) ((Math.random() * (600 - 0)) + 0);
-            return y;
+        if (num < min || num > max) {
+            num = r.nextInt(max - min + 1) + min - r.nextDouble();
         }
-        return y;
+
+        return num;
     }
 
     public double calcDistance(Point other) {
-        double x1 = other.getX();
-        double x2 = this.getX();
-
-        double y1 = other.getY();
-        double y2 = this.getY();
-
-        double x3 = x1 - x2;
-        double y3 = y1 - y2;
-
-        double distance = Math.sqrt(Math.pow(x3,2) + Math.pow(y3,2));
-
-        return distance;
+        return Math.sqrt(Math.pow((other.x - this.x), 2) + Math.pow((other.y - this.y), 2));
     }
 
-    public double getX() {
-        return x;
-    }
-
-    private void setX(double x) {
-        this.x = x;
-    }
-
-    public double getY() {
-        return y;
-    }
-
-    private void setY(double y) {
-        this.y = y;
+    @Override
+    public String toString() {
+        return "Point (" + x + ", " + y + ")";
     }
 }
