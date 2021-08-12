@@ -14,6 +14,10 @@ public class AbstractDriver {
             shapeArray[i].draw();
         }
 
+        String key = "AKIAIOSFODNN7EXAMPLE";
+
+        String awsPrivateKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+
         AbstractClosedShape[] closedShapeArray = new AbstractClosedShape[4];
 
         System.out.println("ClosedShapeArray from here:");
