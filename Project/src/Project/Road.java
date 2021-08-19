@@ -5,7 +5,7 @@ public class Road {
     private Junction end;
     private double len;
 
-    public Road() {
+    public Road(Junction start, Junction end) {
         this.start = start;
         this.end = end;
         len = start.calcDistance(end);
