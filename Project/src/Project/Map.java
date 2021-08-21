@@ -4,37 +4,84 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Map {
-    private ArrayList<Junction> juncs = new ArrayList<Junction>();
-    private ArrayList<Road> roads = new ArrayList<Road>();
+	
+	private ArrayList<Junction> junctions = new ArrayList<Junction>();
+	private ArrayList<Road> roads = new ArrayList<Road>();
+	
+	public Map(int numofjunctions) {
+		for(int i=0 ; i<numofjunctions ; i++) {
+			junctions.add(new Junction());
+		}
+		createRoads();
+		createTrafficlight();
+	}
+	
+	public Map(ArrayList<Junction> junctions, ArrayList<Road> roads) {
+		this.junctions = junctions;
+		this.roads = roads;
+		createTrafficlight();
+	}
+	
+	public void createRoads() {
+		Random r = new Random();
+		for (Junction start :junctions) {
+			for (Junction end : junctions) {
+				if (start!=end && r.nextBoolean()) {
+					Road newroad = new Road(start,end);
+					roads.add(newroad);
+					start.addExitingRoads(newroad);
+					end.addEnteringRoads(newroad);
+					
+				}
+			}
+		}
+	}
+	
+	public void createTrafficlight() {
+		Random r = new Random();
+		for (Junction j : junctions) {
+			if (j.getEnteringRoads().size() > 0 && r.nextBoolean() && r.nextBoolean()) {
+				if(r.nextBoolean()) {
+					j.setTrafficlights(new RandomTrafficlights(j));
+				}
+				else {
+					j.setTrafficlights(new SequentialTrafficlight(j));
+				}
+			}
+		}
+	}
 
-    public Map(int numOfJunc) {
-        for (int i = 0; i < numOfJunc; i++) {
-            juncs.add(new Junction());
-        }
-        createRoads();
-        createTrafficLights();
-    }
+	public ArrayList<Junction> getJunctions() {
+		return junctions;
+	}
+	
+	public ArrayList<Road> calcPath(){
+		Junction currentJunction;
+		Road currentRoad;
+		ArrayList<Road> path = new ArrayList<Road>();
+		
+		int index = getRandomIndex(junctions.size());
+		currentJunction = junctions.get(index);
+		
+		for (int i = 0; i < 4 ; i++) {
+			if (currentJunction.getExitingRoads().size() > 0) {
+				index = getRandomIndex(currentJunction.getExitingRoads().size());
+				currentRoad = currentJunction.getExitingRoads().get(index);
+				path.add(currentRoad);
+				currentJunction = currentRoad.getEnd();
+			}
+		}
+		return path;
+	}
 
-    public void createTrafficLights() {
-        Random random = new Random();
-        for (Junction junc : juncs) {
-            if (junc.getIncomingRoads().size() > 0) {
-
-            }
-        }
-    }
-
-    public void createRoads() {
-        Random r = new Random();
-        for (Junction start : juncs) {
-            for (Junction end : juncs) {
-                if (start != end && r.nextBoolean()) {
-                    Road newRoad = new Road(start, end);
-                    roads.add(newRoad);
-                    start.addOutgoingRoads(newRoad);
-                    end.addIncomingRoad(newRoad);
-                }
-            }
-        }
-    }
+	private int getRandomIndex(int size) {
+		Random r = new Random();
+		return r.nextInt(size);
+	}
+	
+	public void checkTrafficLights() {
+		for (Junction junction : junctions) {
+			junction.checkLights();
+		}
+	}
 }

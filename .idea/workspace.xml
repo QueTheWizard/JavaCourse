@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/DrivingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/DrivingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Junction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Junction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/src/Project/RandomTrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/RandomTrafficLights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/SequentialTrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/SequentialTrafficLights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Road.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/src/Project/TrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/TrafficLights.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/src/Project/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/MainClasss.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Project/src/Project/Point.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Project/src/Project/Junction.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Project/src/Project/TrafficLights.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project/src/Project/Trafficlights.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Project/src/Project/Road.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
@@ -127,22 +133,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
-  <component name="RunManager" selected="Application.ClubForSnobs">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="ClubForSnobs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class8.ClubForSnobs" />
-      <module name="Class8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class8.Driver" />
       <module name="Class8" />
       <extension name="coverage">
         <pattern>
@@ -193,13 +186,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Project.Program" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.ClubForSnobs" />
         <item itemvalue="Application.ExceptionExample1" />
         <item itemvalue="Application.ExceptionExample2" />
         <item itemvalue="Application.OracleDB" />
-        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +232,7 @@
       <workItem from="1628071921118" duration="10391000" />
       <workItem from="1628542055912" duration="868000" />
       <workItem from="1628688788804" duration="6423000" />
-      <workItem from="1629049390783" duration="24222000" />
+      <workItem from="1629049390783" duration="25952000" />
     </task>
     <servers />
   </component>

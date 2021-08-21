@@ -3,31 +3,64 @@ package Project;
 import java.util.ArrayList;
 
 public class Junction extends Point {
-    private ArrayList<Road> incomingRoads = new ArrayList<Road>();
-    private ArrayList<Road> outgoingRoads = new ArrayList<Road>();
-    private static int counter = 1;
-    private int id;
-    private TrafficLights tl = null;
+	
+	private static int counter = 1;
+	private int junc_num;
+	private boolean SET_JUNC;
+	private Trafficlights tl = null;
+	private ArrayList<Road> enteringRoads = new ArrayList<Road>();
+	private ArrayList<Road> exitingRoads = new ArrayList<Road>();
+	
+	
+	public Junction() {
+		super();
+	}
+	
+	public Junction(int x,int y) {
+		super();
+	}
+	
+	private int getjunc() {
+		if(!SET_JUNC) {
+			junc_num = counter++;
+			SET_JUNC = true;
+		}
+		return junc_num;
+	}
+	
+	public void setTrafficlights(Trafficlights tl) {
+		this.tl = tl;
+	}
+	
+	public int getJuncNum() {
+		return junc_num;
+	}
 
-    public ArrayList<Road> getIncomingRoads() {
-        return incomingRoads;
-    }
+	public void addEnteringRoads(Road x) {
+		enteringRoads.add(x);
+	}
+	
+	public void addExitingRoads(Road x) {
+		exitingRoads.add(x);
+	}
+	
+	public ArrayList<Road> getExitingRoads() {
+		return exitingRoads;
+	}
 
-    public Junction() {
-        super();
-        id = counter++;
-    }
+	public ArrayList<Road> getEnteringRoads() {
+		return enteringRoads;
+	}	
+	
+	public void checkLights() {
+		if (tl != null) {
+			tl.check();
+		}
+	}
 
-    public void addIncomingRoad(Road r) {
-        incomingRoads.add(r);
-    }
-
-    public void addOutgoingRoads(Road r) {
-        outgoingRoads.add(r);
-    }
-
-    public void setTrafficLights(TrafficLights tl) {
-        this.tl = tl;
-    }
-
+	@Override
+	public String toString() {
+		return "Junction "+getjunc()+ " at " + super.toString();
+	}
+	
 }
