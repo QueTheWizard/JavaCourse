@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/DrivingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/DrivingGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/Junction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Junction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/RandomTrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/RandomTrafficLights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Road.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/TrafficLights.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/TrafficLights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/src/Project/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/src/Project/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Learning.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Learning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/MainC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/MainC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/WorkingStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/WorkingStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +39,14 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Project/src/Project/Map.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Project/src/Project/Program.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/Washer.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/TV.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/Device.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/MainClass.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Pet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/Washer.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Cat.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/TV.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Human.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/Device.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/MainClasss.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Project/src/Project/Point.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Project/src/Project/Junction.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Project/src/Project/Trafficlights.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Project/src/Project/Road.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="5" />
@@ -232,7 +224,10 @@
       <workItem from="1628071921118" duration="10391000" />
       <workItem from="1628542055912" duration="868000" />
       <workItem from="1628688788804" duration="6423000" />
-      <workItem from="1629049390783" duration="25952000" />
+      <workItem from="1629049390783" duration="28210000" />
+      <workItem from="1629616223437" duration="98000" />
+      <workItem from="1629617432650" duration="665000" />
+      <workItem from="1629898311274" duration="730000" />
     </task>
     <servers />
   </component>

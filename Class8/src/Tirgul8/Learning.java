@@ -1,5 +1,5 @@
 package Tirgul8;
 
 public interface Learning {
-    void learn();
+	public void study();
 }

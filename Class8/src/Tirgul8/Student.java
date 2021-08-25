@@ -1,8 +1,24 @@
 package Tirgul8;
 
-public class Student extends Person {
+public class Student extends Person implements Learning, Living{
 
-    public Student(String name) {
-        this.name = name;
-    }
+	public Student(String name) {
+		super(name);
+	}
+
+
+	@Override
+	public void live() {
+		study();
+		
+	}
+	
+	public void study() {
+		System.out.println(this + "is studying");
+	}
+	
+	
+	
+	
+
 }
