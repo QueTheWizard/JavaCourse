@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codewithmosh/src/com/mosh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/codewithmosh/src/com/mosh/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,13 +125,13 @@
       <recent name="com.mosh.NewClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DownloadFromWeb">
-    <configuration name="ClubForSnobs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class8.ClubForSnobs" />
-      <module name="Class8" />
+  <component name="RunManager" selected="Application.LinkedListQueue">
+    <configuration name="DownloadFromWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class10.DownloadFromWeb" />
+      <module name="Class10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class8.*" />
+          <option name="PATTERN" value="Class10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadFromWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class10.DownloadFromWeb" />
+    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tirgul10.LinkedListQueue" />
       <module name="Class10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class10.*" />
+          <option name="PATTERN" value="Tirgul10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListQueue" />
         <item itemvalue="Application.DownloadFromWeb" />
         <item itemvalue="Application.TextFileWritingExample3" />
         <item itemvalue="Application.TextFileWriter" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.ClubForSnobs" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +231,7 @@
       <workItem from="1630053166056" duration="2603000" />
       <workItem from="1630228206575" duration="3320000" />
       <workItem from="1630354841070" duration="62000" />
-      <workItem from="1630503377970" duration="922000" />
+      <workItem from="1630503377970" duration="4682000" />
     </task>
     <servers />
   </component>
