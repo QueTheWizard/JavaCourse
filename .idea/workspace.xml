@@ -4,12 +4,7 @@
     <list default="true" id="167242d4-f0b9-4486-b608-2cce275d2197" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Learning.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Learning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/MainC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/MainC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class8/src/Tirgul8/WorkingStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Class8/src/Tirgul8/WorkingStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewithmosh/src/com/mosh/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/codewithmosh/src/com/mosh/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Class4/src/Tirgul4/Human.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/Device.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Class5/src/Tirgul5/MainClasss.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/eclipse/jdk-16.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/FileWriter.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="5" />
@@ -119,13 +115,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="16.0.1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.mosh.NewClass" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DownloadFromWeb">
     <configuration name="ClubForSnobs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Class8.ClubForSnobs" />
       <module name="Class8" />
@@ -139,38 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class8.ExceptionExample1" />
-      <module name="Class8" />
+    <configuration name="DownloadFromWeb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class10.DownloadFromWeb" />
+      <module name="Class10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Class8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class8.ExceptionExample2" />
-      <module name="Class8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OracleDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Class8.OracleDB" />
-      <module name="Class8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Class8.*" />
+          <option name="PATTERN" value="Class10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,13 +167,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class9.TextFileWriter" />
+      <module name="Class9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextFileWritingExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Class9.TextFileWritingExample3" />
+      <module name="Class9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Class9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DownloadFromWeb" />
+        <item itemvalue="Application.TextFileWritingExample3" />
+        <item itemvalue="Application.TextFileWriter" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.ClubForSnobs" />
-        <item itemvalue="Application.ExceptionExample1" />
-        <item itemvalue="Application.ExceptionExample2" />
-        <item itemvalue="Application.OracleDB" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +229,11 @@
       <workItem from="1629049390783" duration="28210000" />
       <workItem from="1629616223437" duration="98000" />
       <workItem from="1629617432650" duration="665000" />
-      <workItem from="1629898311274" duration="730000" />
+      <workItem from="1629898311274" duration="9678000" />
+      <workItem from="1630053166056" duration="2603000" />
+      <workItem from="1630228206575" duration="3320000" />
+      <workItem from="1630354841070" duration="62000" />
+      <workItem from="1630503377970" duration="922000" />
     </task>
     <servers />
   </component>
